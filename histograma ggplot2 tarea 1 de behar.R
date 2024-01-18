@@ -10,3 +10,6 @@ datos<-data.frame(intervalo=datos$intervalo.de.clase.de.la.duracion..minutos.,ma
 
 #realizar histograma con la grafica de ggplot2
 ggplot(data=datos)+geom_bar(aes(intervalo,marca_de_clase),stat = 'identity',width = 0.3,fill='violet')+theme_classic()+labs(title="duración de erupción del geiser", )
+
+#visualizacion de datos
+view(datos)
