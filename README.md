@@ -1,2 +1,2 @@
 # gr-ficos-
-recordatorio de códigos de gráficos 
+este repositrio lo cree con el fin de recordar y reusar graficas de Rstudio
